@@ -16,6 +16,8 @@ console.log(__dirname);
 
 // Variables for url and api key
 
+const API_KEY = process.env.API_KEY;
+
 
 app.get('/', function (req, res) {
     res.send("This is the server API page, you may access its services via the client app.");

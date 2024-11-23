@@ -10,6 +10,7 @@ const cors = require('cors');
 
 app.use(cors());
 app.use(bodyParser.json());
+app.use(express.static('dist'));
 
 console.log(__dirname);
 
@@ -19,6 +20,10 @@ console.log(__dirname);
 app.get('/', function (req, res) {
     res.send("This is the server API page, you may access its services via the client app.");
 });
+
+app.get('/', function (req, res) {
+    res.sendFile('dist/index.html')
+    })
 
 
 // POST Route

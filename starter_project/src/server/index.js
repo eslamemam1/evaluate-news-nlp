@@ -5,13 +5,12 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const app = express();
+app.use(express.static('dist'));
 
 const cors = require('cors');
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use(express.static('dist'));
-
 console.log(__dirname);
 
 // Variables for url and api key

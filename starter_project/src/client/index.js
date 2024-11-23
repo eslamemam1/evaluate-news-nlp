@@ -10,4 +10,4 @@ import './styles/header.scss'
 
 
 alert("I EXIST")
-// console.log("CHANGE!!");
+console.log("CHANGE!!");

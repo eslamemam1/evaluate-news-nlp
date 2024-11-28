@@ -27,6 +27,7 @@ Run the following command to install dependencies:
 
 ```bash
 npm install
+```
 
 ## Running the Project
 - Server-Side (Development Environment)
@@ -34,3 +35,4 @@ npm install
 
 ```bash
 npm run start
+```

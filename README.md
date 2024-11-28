@@ -36,3 +36,19 @@ npm install
 ```bash
 npm run start
 ```
+## Client-Side
+- Build the client side for development:
+
+```bash
+npm run build-dev
+```
+
+## Setting Up the API
+- Create an account at MeaningCloud.
+- Replace the placeholder API key in the .env file with your actual key:
+- env
+
+```bash
+API_KEY = 97cc8e*********************
+```
+

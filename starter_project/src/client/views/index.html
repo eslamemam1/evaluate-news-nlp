@@ -1,39 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>Test</title>
-    </head>
 
-    <body>
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Test</title>
+</head>
 
-        <header>
-            <div class="">
-                Logo
-            </div>
-            <div class="">
-                navigation
-            </div>
-        </header>
+<body>
 
-        <main>
-            <section>
-                <form id="urlForm">
-                    <input id="name" type="text" name="url" placeholder="Enter URL" required>
-                    <button id="submitButton" type="submit">Submit</button>
-                </form>
-                
-            </section>
+    <header>
+        <div>
+            <a class="link" href="/">
+                <span>Article Analyzer</span>
+            </a>
+        </div>
+        <div>
+            <ul>
+                <li><a class="link" target="_blank" href="https://github.com/eslamemam1">Github</a></li>
+                <li><a class="link" target="_blank"
+                        href="https://www.linkedin.com/in/eslam-emam-12695815b/">linkedIn</a></li>
+            </ul>
+        </div>
+    </header>
 
-            <section>
-                <strong>Form Results:</strong>
-                <div id="results"></div>
-            </section>
-        </main>
+    <main>
+        <section>
+            <form id="urlForm">
+                <h5>
+                    Insert a valid URL to enable the Article Analyzer to start its process.
+                </h5>
+                <input id="url" type="text" name="url" placeholder="Enter URL">
+                <div id="errorMessage"></div>
+                <button id="submitButton" type="submit" class="">Submit</button>
+            </form>
+        </section>
 
-        <footer>
-            <p>This is a footer</p>
-        </footer>
+        <section class="results-section">
+            <div class="res-dev"><strong class="results-section-text">Form Results:</strong></div>
+            <div id="results"></div>
+        </section>
+    </main>
 
-    </body>
+    <footer>
+        <div class="text-footer">
+            <span>© 2024 Article Analyzer</span>
+        </div>
+    </footer>
+
+</body>
+
 </html>

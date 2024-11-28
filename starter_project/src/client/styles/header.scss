@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgb(0, 89, 205);
+    font-size: 20px;
+}
+
+.link{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+.link:hover{
+    color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}

@@ -38,7 +38,7 @@ npm run start
 ```
 ## Client-Side
 - Clint-Side (Development Environment)
-- Start the server on port 3000:
+- Start the server on port 3000
 - Build the client side for development:
 
 ```bash
